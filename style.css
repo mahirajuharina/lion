@@ -1,0 +1,36 @@
+/* div {
+    display: inline-block;
+} */
+
+.satu {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    /* jd ke center parentnya */
+
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+
+    /* margin-left: -70px; */
+    /* negative margine, jd geraknya berlawanan arah, bisa sampe numpuk juga */
+    /* overlapping margin */
+    /* margin-top: 20px; */
+    /* kalo urutannya ke bawah, kalo ke gini jdnya gaada perubahan krn yg diambil yg plg gede, kek margbottom .satu kan lebih gede gitu*/
+
+}
+
+.tiga {
+    width: 75px;
+    height: 75px;
+    background-color: cornflowerblue;
+    /* shorthand margin */
+    margin: 80px 10px ;
+    /* 1 value: semua sisi, 2 value: atasbawah kirikanan, 3 value: atas kirikanan bawah, 4 value: atas kanan bawah kiri */
+    
+}
